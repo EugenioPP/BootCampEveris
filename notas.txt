@@ -1,3 +1,8 @@
+GITHUB
+
+git init
+git remote add origin <URL>
+
 Local > Repositorio
 add > commit > push
 
@@ -23,3 +28,46 @@ git merge <rama a fusionar>
 git tag 0.0.1 <COMMIT ID> [añadir un tag a un commit]
 git push origin --tag [subir el tag al repositorio]
 git tag -d <TAG> [eliminar el tag de un commit]
+
+git request-pull <url origen / sitio origen> <url destino / sitio destino>
+
+-------------------------------------------------------------
+MAVEN (Control de ciclo de vida de la aplicación)
+-------------------------------------------------------------
+SCOPES
+compile
+test
+provided
+system
+import
+
+URL -> mvnrepository.com
+
+ESTRUCTURA
+groupId
+artifactId
+version
+scope
+exclusions [Normalmente usados para pruebas unitarias]
+
+REPOSITORIOS EXTERNOS
+repositories
+	repository
+		id
+		url
+	/
+/ [Si no funciona, buscará en el central]
+
+PROYECTOS MODULARES
+modules
+	module /
+	module /
+/
+
+PLUGINS
+surefie -> tests unitarios
+checkstyle
+clover -> evaluación de la cobertura de código
+enforcer
+assembly
+
