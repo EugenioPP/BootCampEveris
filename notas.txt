@@ -71,3 +71,4 @@ clover -> evaluación de la cobertura de código
 enforcer
 assembly
 
+mvn archetype:generate -DgroupId=com.everis.bootcamp -DartifactId=taller-maven -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
