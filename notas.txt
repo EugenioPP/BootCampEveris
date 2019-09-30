@@ -1,0 +1,25 @@
+Local > Repositorio
+add > commit > push
+
+Repositorio > Local
+init/clone (inicializa tu local con la copia del repositorio) [mejor clone porque se autoinicializa]
+pull (si no tienes la versión actualizada) [git pull origin master]
+
+Master es la rama principal (como el tallo)
+Branch son las ramas 
+
+git branch asdf [creo una rama]
+git checkout -b asdf [me muevo a la rama]
+git checkout master [vuelvo a la principal]
+
+subir rama a repositorio [git push origin asdf]
+borrar rama [git branch -d asdf]
+
+git fetch [sincroniza el fichero de git con el principal por si hay cambios (ramas nuevas, etc)]
+
+git checkout <rama-destino>
+git merge <rama a fusionar>
+
+git tag 0.0.1 <COMMIT ID> [añadir un tag a un commit]
+git push origin --tag [subir el tag al repositorio]
+git tag -d <TAG> [eliminar el tag de un commit]
