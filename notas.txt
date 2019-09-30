@@ -1,3 +1,6 @@
+git init
+git remote add origin <URL>
+
 Local > Repositorio
 add > commit > push
 
